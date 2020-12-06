@@ -1,0 +1,58 @@
+{
+  "uid" : "163c959412877e6",
+  "name" : "Verify if a user able to login with a valid username and valid password.",
+  "fullName" : "Login suite.Verify if a user able to login with a valid username and valid password.",
+  "historyId" : "cf3f128d3e3b73311d5df3a0af110814",
+  "time" : {
+    "start" : 1607214469387,
+    "stop" : 1607214479004,
+    "duration" : 9617
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Login suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify if a user able to login with a valid username and valid password."
+  }, {
+    "name" : "package",
+    "value" : "Login suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "163c959412877e6.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

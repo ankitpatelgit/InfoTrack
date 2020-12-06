@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InfoTrackAutomation" verbose="10" parallel="false"
+	thread-count="1">
+	<!-- <parameter name="selenium.host" value="127.0.0.1" /> <parameter name="selenium.port" 
+		value="4444" /> -->
+<listeners>
+	<listener class-name="com.InfoTrack.Utility.CustomReporter" />
+	<listener class-name="com.InfoTrack.Utility.CustomReporterBuildSummary" />
+</listeners>
+	
+	<test name="Login - Login">
+		<classes>
+			<class name="com.InfoTrack.Login.Login_Index_Test">
+				<methods>
+					 <include name="verifyLoginWithValidInputs">
+						<parameter name="Author" value="Ankit Patel" />
+						<parameter name="Module" value="Login" />
+					</include> 		
+					 <include name="verifyLoginWithInvalidEmail">
+						<parameter name="Author" value="Ankit Patel" />
+						<parameter name="Module" value="Login" />
+					</include> 
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+</suite>

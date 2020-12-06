@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>standard</theme>
+    
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>https</protocol>
+       
+        <!-- custom javascript --><!--  <scripts> <![CDATA[
+         $(document).ready(function() { $(".logo-content").hide(); $(".logo-container").html("Some Small HTML text" ); }); 
+         ]]> </scripts> -->
+     
+        <!-- title of the document -->
+        <documentTitle>QA report </documentTitle>
+        
+        <!-- report name - displayed at top-nav -->
+        <reportName>Automated Test Cases</reportName>
+        
+        <!-- location of charts in the test view -->
+        <!-- top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+        
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                     $(document).ready(function() { $(".blue.darken-3").attr("href", "https://accounts.google.com/ServiceLogin"); });
+                     $(document).ready(function() { $(".brand-logo").html(" InfoTrackTest") });
+                     $(document).ready(function() { $(".blue.darken-3").css("width","90px") });
+                     $(document).ready(function() { $(".side-nav").css("width","90px") });
+                     $(document).ready(function() { $(".side-nav i").css("width","35px") });
+                     $(document).ready(function() { $(".container").css("padding-left","80px") });
+                     $(document).ready(function() { $(".side-nav li").css("width","90px") });
+                     $(document).ready(function() { $("nav .brand-logo").css("padding-left","5px") });
+                });
+            ]]>
+        </scripts>
+        
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>

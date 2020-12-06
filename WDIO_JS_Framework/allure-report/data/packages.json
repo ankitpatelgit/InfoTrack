@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Login suite",
+    "children" : [ {
+      "name" : "Verify if a user can not log in with an invalid username and valid password.",
+      "uid" : "5377dfbd03e12e79",
+      "parentUid" : "d156a3a333d79ba5c3b3c018c69419d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607214460201,
+        "stop" : 1607214469386,
+        "duration" : 9185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Verify if a user able to login with a valid username and valid password.",
+      "uid" : "163c959412877e6",
+      "parentUid" : "d156a3a333d79ba5c3b3c018c69419d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607214469387,
+        "stop" : 1607214479004,
+        "duration" : 9617
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    } ],
+    "uid" : "d156a3a333d79ba5c3b3c018c69419d9"
+  } ]
+}

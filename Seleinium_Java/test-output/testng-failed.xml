@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [InfoTrackAutomation]">
+  <listeners>
+    <listener class-name="com.InfoTrack.Utility.CustomReporter"/>
+    <listener class-name="com.InfoTrack.Utility.CustomReporterBuildSummary"/>
+  </listeners>
+  <test name="Login - Login(failed)">
+    <classes>
+      <class name="com.InfoTrack.Login.Login_Index_Test">
+        <methods>
+          <include name="fetchSuite"/>
+          <include name="postConfigue"/>
+          <include name="verifyLoginWithValidInputs">
+            <parameter name="Module" value="Login"/>
+            <parameter name="Author" value="Ankit Patel"/>
+          </include> <!-- verifyLoginWithValidInputs -->
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="fetchSuiteConfiguration"/>
+        </methods>
+      </class> <!-- com.InfoTrack.Login.Login_Index_Test -->
+    </classes>
+  </test> <!-- Login - Login(failed) -->
+</suite> <!-- Failed suite [InfoTrackAutomation] -->
