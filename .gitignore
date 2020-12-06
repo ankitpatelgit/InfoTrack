@@ -1,1 +1,2 @@
-./WDIO_JS_Framework/node_modules
+WDIO_JS_Framework\node_modules
+**/node_modules
