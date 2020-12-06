@@ -19,5 +19,5 @@
 1. Import Project in VS code
 2. Open your project in terminal, `npm install`
 3. Write `npm run login` to run login suite.
-4. after excution gets complete write allure generate then allure open.
+4. after excution gets complete report. Write `allure generate` then `allure open`.
 
